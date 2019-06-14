@@ -38,6 +38,6 @@ In all cases, an annotation folder will be required. This folder is not directly
 
 
 ## One file per sample
-In this case two files will be required to run the pipeline:
+Regarding this methodology, HERNANDEZ project is the most recent workflow used. In this case two files will be required to run the pipeline:
 1. __Directories file__ (directories.txt): Tabulated text file containing the absolute paths of the directories used for running the pipeline (input directory, output/results directory, workflow directory -the home directory by default- and annotation directory). It should contain 4 columns with the following mandatory headers: _Input_dir, Output_dir, Workflow_dir_ and _Annotation_dir_
 2. __Files to analyze file__ (file_to_analyze.txt): Tabulated tect file containing in two columns the names of the files and samples to analysze. It should contain 2 columns with the following mandatory headers: _FILE_ and _NAME_.
