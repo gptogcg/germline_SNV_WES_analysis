@@ -1,12 +1,12 @@
 # Germline SNV - WES Analysis
-Germline SNV - WES analysis pipelines by PGaCCR lab.
+Germline SNV - WES analysis pipelines by Genetic Predisposition to Gastrointestinal Cancer Group.
 
 _Folder structure changed February 26th 2019 but most workflows not modified already_
 
 
 Two different models of inheritance are considered: autosomal dominant (heterozygosity) and recessive (homozygosity or compound heterozygosity). You can see an overview of the filtering criteria used in the [workflow diagrams](https://github.com/marcos-diazg/SNV_germline_WES_analysis/tree/master/Workflow_diagram).
 
-Different workflows have also been developed according to the structure of the input files. One file per sample is allowed, as well as one big file containing the information of the germline variants of all the samples of the cohort. In all cases, tab separated text files are required to run these pipelines.
+Different workflows have also been developed according to the structure of the input files. One file per sample is allowed, as well as one big file containing the information of the germline variants of all the samples of the cohort. In all cases, tab separated text files are required to run these pipelines (not vcf files).
 
 In all cases, an annotation folder will be required. This folder is not directly provided in GitHub because of size issue, but it should contain the following folders and files:
 * DBs_annotation
